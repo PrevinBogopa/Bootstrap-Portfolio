@@ -17,7 +17,7 @@
   /* Adjust the desired styles for your sticky element here */
   position: sticky;
   top: 0; /* Adjust this value as needed */
-  background-color: #ffffffe7;
+  background-color: #ffffff00;
 
   z-index: 1;
   
