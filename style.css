@@ -18,7 +18,7 @@
   position: sticky;
   background-color: #ffffff00;
 
-  
+  z-index: 1;
   backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
 }
 
