@@ -16,10 +16,8 @@
  .sticky {
   /* Adjust the desired styles for your sticky element here */
   position: sticky;
-  top: 0; /* Adjust this value as needed */
   background-color: #ffffff00;
 
-  z-index: 1;
   
   backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
 }
