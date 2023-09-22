@@ -16,15 +16,19 @@
  .sticky {
   /* Adjust the desired styles for your sticky element here */
   position: sticky;
-  background-color: #ffffff00;
+  
 
   z-index: 1;
   backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
 }
+.navbar:hover {
+  background: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for the desired level of transparency */
+  backdrop-filter: blur(5px); /* Adjust the blur amount (5px) for the desired effect */
+}
 
 .banner-wrap {
   /* feel free to use your own img  */
-  background-image: url("img.jpg");
+  background-image: url("christopher-gower-m_HRfLhgABo-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,11 +40,14 @@
   height: 100%;
   width: 100%;
   background: black;
-  opacity: 50%;
+  opacity: 80%;
   position: absolute;
   top: 0;
 }
-
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+}
 .nav-masthead .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;
@@ -59,6 +66,6 @@
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #fffefe;
+  border-bottom-color: #000000;
 }

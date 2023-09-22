@@ -32,18 +32,22 @@
         />
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet" />
-
+    <style>
+      .navbar:hover {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+      }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  
-    <nav class="navbar navbar-expand-lg sticky">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <img class="navbar-toggler-icon" src="icons8-menu-30.png ">
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item text-dark">
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
@@ -56,11 +60,10 @@
               <a class="nav-link" href="#contact">Connect</a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
-
+    
 
 
   </head>
@@ -95,7 +98,7 @@
                     <p><strong>Name:</strong> Previn Bogopa</p>
                     <p><strong>Profile:</strong>Full Stack Developer</p>
                     <p><strong>Email:</strong>previnbogopa@icloud.com</p>
-                    <p><strong>Phone:</strong>+27 684289897</p>
+                    <p><strong>Phone:</strong>+27 62 569 3569</p>
                     <p>
                       <strong>Skills:</strong>
                       <span class="badge rounded-pill bg-dark">HTML</span>
@@ -136,12 +139,12 @@
           <div class="col-md-4 mt-3">
             <div class="card">
               <img
-                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/css_netflix.png"
+                src="twitter-x.jpg"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Netflix Landing Page</h5>
+                <h5 class="card-title">Twitter Page</h5>
                 <p class="card-text">Built this with HTML & CSS</p>
                 <a
                   href="https://vc-netflix.netlify.app"
